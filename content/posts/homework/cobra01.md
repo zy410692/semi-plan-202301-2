@@ -1,5 +1,5 @@
 ---
-title: "cobra - 01 实现编译与参数绑定"
+title: "作业: cobra - 01 实现编译与参数绑定"
 categories:
   - 半月刊
 tags:
@@ -13,7 +13,7 @@ pinTop: false
 ---
 
 
-# 作业要求: cobra - 01 实现编译与参数绑定
+# 作业: cobra - 01 实现编译与参数绑定
 
 要求:
 
