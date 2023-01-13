@@ -2,10 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: "{{ replace .TranslationBaseName "-" " " | title }}"
 categories:
-  - only-one
+  - 半月刊
 tags:
-  - tag01
-  - tag02
+  - 半月刊202301下
 date: "{{ .Date }}"
 lastmod: "{{ .Date }}"
 toc: true
