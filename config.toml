@@ -37,7 +37,7 @@ summaryLength = 140
   # https://analytics.google.com/analytics
 #   googleTag = "G-V3S2RT0KBC" # G-xxxxxx
   #   百度统计
-#   baiduTongji = "3ed4211d4b231bb7277eca826149b74f"
+  baiduTongji = "85ce231e583823871a8497f2c5d10b18"
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
 #   customCSS = ['dashang.css']
