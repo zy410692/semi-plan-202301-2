@@ -33,7 +33,7 @@ summaryLength = 140
   busuanzi = true #启用不算子网页统计
 
   # https://google.com/adsense
-#   googleAd = "ca-pub-5359126171348711"  #ca-pub-xxxxxxxxxxxxxx
+  googleAd = "ca-pub-5359126171348711"  #ca-pub-xxxxxxxxxxxxxx
   # https://analytics.google.com/analytics
 #   googleTag = "G-V3S2RT0KBC" # G-xxxxxx
   #   百度统计
