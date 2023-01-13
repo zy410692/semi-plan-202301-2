@@ -38,10 +38,19 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
+      # https://github.com/actions/checkout#checkout-multiple-repos-nested
+      - name: Checkout hugo-builder
+        uses: actions/checkout@v2
+        with:
+          repository: tangx/maupassant-hugo
+          path: themes/maupassant-hugo
+          # ref: v1.2.10
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
