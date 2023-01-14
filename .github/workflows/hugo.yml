@@ -47,7 +47,7 @@ jobs:
       - name: Checkout hugo-builder
         uses: actions/checkout@v2
         with:
-          repository: tangx/maupassant-hugo
+          repository: devops-camp/maupassant-hugo
           path: themes/maupassant-hugo
           # ref: v1.2.10
 
