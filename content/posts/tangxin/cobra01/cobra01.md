@@ -124,8 +124,13 @@ func main() {
 
 ### 4. 使用 Makefile 进行编译管理
 
-```Makefile
+1. 使用 `GOOS` 和 `GOARCH` 设置环境变量命令。
+2. 使用 `build` 命令， 使用进行 **当前系统环境** 的编译
+    + 并且编译文件命名包含系统信息。
+3. 使用 `buildx` 命令， 实现 **交叉编译**
+4. 使用 `clean` 命令清空编译结果。
 
+```Makefile
 ## 默认变量， 获取当前 go 的环境变量
 GOOS ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
