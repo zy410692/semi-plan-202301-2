@@ -59,12 +59,26 @@ $ cat config.json
 1. `Marshal(v any) ([]byte, error)` 将结构体 **解析** 成 `[]byte` 类型。
 2. `Unmarshal(data []byte, v any) error` 将 `[]byte` **映射** 到结构体中。 这里的 `v` 需要是 **指针类型**
 
-另外， **不同的** 解析库对应的的 **方法名称** 和 **实现逻辑** 也不尽相同， 使用的时候需要自己研究。
+> 另外， **不同的** 解析库对应的的 **方法名称** 和 **实现逻辑** 也不尽相同， 使用的时候需要自己研究。
+
+有些库， 在名字上可能具有一定变种，但也有迹可循。 比如
+
+```
+MarshalJSON
+MarshalYAMl
+```
 
 
 **常用的解析库**
 
 1. `json`: `encoding/json`
 2. `yaml`: `gopkg.in/yaml.v3`, `gopkg.in/yaml.v2` **v2 和 v3** 有区别， 自己研究。
+
+
+## 思考题？
+
+1. 为什么 json 第一次 Name 和 Age 是 **大写字母** 开头的？
+2. yaml, json 解析库的 **解析逻辑顺序是什么** ？
+3. 怎么样忽略某个字段的解析？
 
 
