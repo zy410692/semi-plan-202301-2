@@ -12,13 +12,13 @@ draft: false
 hiddenFromHomePage: false
 
 #  提交作业修改一下内容
-pinTop: true
+pinTop: false
 originAuthor: homework
 originLink: ""
 ---
 
 
-# 作业: cobra - 02 读取配置配置文件
+# 作业: cobra - 02 读取配置配置文件 (作业解析和思考题)
 
 ## 作业要求
 
